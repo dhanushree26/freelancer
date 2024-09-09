@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- ScrollReveal JS -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Freelance Platform | Home</title>
+</head>
+<body>
+    <!-- <header>
+        <div class="profile">
+            <img src="assets/profile_pic.webp" alt="Profile Picture">
+            <span>Dhanushree</span>
+        </div>
+    </header> -->
+    
+    <div class="profile-pic" onclick="toggleDropdown()"></div>
+
+    <div id="myDropdown" class="dropdown">
+        <a href="#">My profile</a>
+        <a href="#">Edit Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Log Out</a>
+    </div>
+    <header class="header__container" id="home">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="assets/logo-darkdl.png" alt="logo-dark" />
+                        <img src="assets/logoname.png" alt="logo-dark" />
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#talents">Top Talents</a></li>
+            </ul>
+        </nav>
+        <div class="header__image">
+            <img src="assets/network2 (1).png" alt="header" />
+        </div>
+        <div class="header__content">
+            <h1>FIND THE BEST FREELANCERS FOR YOUR PROJECT</h1>
+            <p>
+                Connect with skilled professionals across various industries to bring your ideas to life.
+            </p>
+            <div class="header__btns">
+               <a href="login/try.html"> <button class="btn discover">GET STARTED</button>
+                <button class="btn">POST A JOB</button>
+            </div></a>
+        </div>
+    </header>
+
+    <section class="section__container feature__container" id="services">
+        <h2 class="section__header">POPULAR SERVICES</h2>
+        <marquee behavior="scroll" direction="left" scrollamount="7" onmouseover="this.stop();" onmouseout="this.start();">
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/web.jpg" alt="feature" />
+              <h4>Web Development</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/videoandanimation.png" alt="feature" />
+              <h4>Graphic Design</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/content-writing.jpg" alt="feature" />
+              <h4>Content Writing</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/consulting.jpeg" alt="feature" />
+              <h4>Consulting</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/socialmedia.png" alt="feature" />
+              <h4>Digital Marketing</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+          <div class="feature__card">
+              <span>NEW</span>
+              <img src="assets/dataanlyst.png" alt="feature" />
+              <h4>Data Analyst</h4>
+              <button class="btn">HIRE NOW</button>
+          </div>
+      </marquee>
+      
+    </section>
+
+    <section class="story">
+        <div class="section__container story__container">
+            <div class="story__image">
+                <img src="assets/MISSION.jpeg" alt="story" />
+            </div>
+            <div class="story__content">
+                <h2 class="section__header">OUR MISSION</h2>
+                <h4>Empowering Freelancers and Employers</h4>
+                <p>
+                    Our platform is dedicated to connecting talented freelancers with businesses around the globe, enabling successful collaborations and achieving outstanding results.
+                </p>
+                <div class="story__btn">
+                    <button class="btn">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container arrival__container" id="talents">
+        <h2 class="section__header">TOP FREELANCERS</h2>
+        <div class="arrival__grid">
+            <div class="arrival__card">
+                <span>TOP RATED</span>
+                <img src="assets/client-5.png" alt="arrival" />
+                <h4>John Doe</h4>
+                <p>Web Developer</p>
+                <button class="btn read__more">VIEW PROFILE</button>
+                <button class="btn add__cart">HIRE NOW</button>
+            </div>
+            <div class="arrival__card">
+                <img src="assets/client-1.jpg" alt="arrival" />
+                <h4>Jane Smith</h4>
+                <p>Graphic Designer</p>
+                <button class="btn read__more">VIEW PROFILE</button>
+                <button class="btn add__cart">HIRE NOW</button>
+            </div>
+            <div class="arrival__card">
+                <span>TOP RATED</span>
+                <img src="assets/client-3.jpg" alt="arrival" />
+                <h4>Robert Brown</h4>
+                <p>Content Writer</p>
+                <button class="btn read__more">VIEW PROFILE</button>
+                <button class="btn add__cart">HIRE NOW</button>
+            </div>
+            <div class="arrival__card">
+                <img src="assets/client-4.jpg" alt="arrival" />
+                <h4>Olivia</h4>
+                <p>SEO Specialist</p>
+                <button class="btn read__more">VIEW PROFILE</button>
+                <button class="btn add__cart">HIRE NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="client">
+        <div class="section__container client__container">
+            <div class="client__image">
+                <img src="assets/last.jpeg" alt="client" />
+            </div>
+            <div class="client__content">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client__card">
+                                <span><i class="ri-double-quotes-l"></i></span>
+                                <p>
+                                    I've had a fantastic experience using this platform. The talent here is top-notch, and I've been able to find exactly what I need for each of my projects.
+                                </p>
+                                <div class="client__card__details">
+                                    <img src="assets/client-1.jpg" alt="client" />
+                                    <div>
+                                        <h4>Emma Wilson</h4>
+                                        <h5>Business Owner</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client__card">
+                                <span><i class="ri-double-quotes-l"></i></span>
+                                <p>
+                                    The freelancers on this platform are professional, reliable, and truly skilled. I've been impressed with the quality of work delivered.
+                                </p>
+                                <div class="client__card__details">
+                                    <img src="assets/client-2.jpg" alt="client" />
+                                    <div>
+                                        <h4>Liam Anderson</h4>
+                                        <h5>Project Manager</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div class="swiper">
+                            </div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                            <div class="client__card">
+                                <span><i class="ri-double-quotes-l"></i></span>
+                                <p>
+                                    This platform has made it so much easier to manage my projects. The talent pool is diverse and I've been able to find specialists in various fields.
+                                </p>
+                                <div class="client__card__details">
+                                    <img src="assets/client-3.jpg" alt="client" />
+                                    <div>
+                                        <h4>Noah Davis</h4>
+                                        <h5>Marketing Director</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div class="swiper">
+            </div class="swiper-wrapper">
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="section__container subscribe__container">
+            <div>
+                <h2>Stay Updated</h2>
+                <p>
+                    Sign up for our newsletter to receive the latest news, tips, and insights about freelancing and remote work.
+                </p>
+            </div>
+            <div>
+                <button class="btn">JOIN</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h4>Support</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>About Us</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Follow Us</h4>
+                <ul class="footer__socials">
+                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
