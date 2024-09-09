@@ -32,6 +32,7 @@ header {
   position: fixed;
   top: 20px;
   right: 20px;
+  display: block; /* Add this property */
 }
 
 .profile-pic:hover {
@@ -65,6 +66,8 @@ header {
 .show {
   display: block;
 }
+
+
 
 :root {
   --primary-color: #7be0e5;

@@ -6,6 +6,22 @@ function toggleDropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function toggleDropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function showEditProfileModal() {
+  document.getElementById("editProfileModal").style.display = "block";
+}
+
+// Close the modal when the user clicks outside of it
+window.onclick = function(event) {
+  if (event.target == document.getElementById("editProfileModal")) {
+      document.getElementById("editProfileModal").style.display = "none";
+  }
+}
+
+
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeLiquid - Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="EditProfile.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">DeLiquid</div>
+            <ul>
+                <li><a href="EditProfile.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="experience-container">
+        <div class="left-panel">
+            <h2>Which of the following describes you best?</h2>
+            <form id="role-form">
+                <label><input type="checkbox" name="role" value="Designer"> Designer</label><br>
+                <label><input type="checkbox" name="role" value="Frontend Developer"> Frontend Developer</label><br>
+                <label><input type="checkbox" name="role" value="Backend Developer"> Backend Developer</label><br>
+                <label><input type="checkbox" name="role" value="Mobile Developer"> Mobile Developer</label><br>
+                <label><input type="checkbox" name="role" value="Blockchain Developer"> Blockchain Developer</label><br>
+                <label><input type="checkbox" name="role" value="Other"> Other</label><br>
+            </form>
+        </div>
+
+        <div class="right-panel">
+            <h2>Rank your top 5 tech skills</h2>
+            <form id="skill-form">
+                <div class="skill-group">
+                    <label>1. <input type="text" id="skill1" placeholder="Enter skill"></label>
+                </div>
+                <div class="skill-group">
+                    <label>2. <input type="text" id="skill2" placeholder="Enter skill"></label>
+                </div>
+                <div class="skill-group">
+                    <label>3. <input type="text" id="skill3" placeholder="Enter skill"></label>
+                </div>
+                <div class="skill-group">
+                    <label>4. <input type="text" id="skill4" placeholder="Enter skill"></label>
+                </div>
+                <div class="skill-group">
+                    <label>5. <input type="text" id="skill5" placeholder="Enter skill"></label>
+                </div>
+            </form>
+            <h3>Suggested</h3>
+            <div class="suggested-skills">
+                <p>+ Solidity</p>
+                <p>+ React.js</p>
+                <p>+ TypeScript</p>
+                <p>+ Go</p>
+                <p>+ Node.js</p>
+                <p>+ Shell</p>
+                <p>+ Kotlin</p>
+                <p>+ Rust</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="experience.js"></script>
+</body>
+</html>
